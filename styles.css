@@ -1,3 +1,42 @@
+/* 
+header, nav, img, ul, li, section, article, h1, p, button
+main, section, article, form, img, input, button
+section, h2, p
+section, article, img, h3, p
+section, article, img, h3, p
+section, article, img, h3, p
+section, img, h2, button
+footer, section, img
+section,article, ul, li
+article, ul, li
+article, ul, li
+article, div, img, img, img, img
+*/
+
+:root {
+  /* ### Primary */
+  --Blue: hsl(180, 66%, 49%);
+  --Purple: hsl(257, 27%, 26%);
+
+  /* ### Secondary */
+  --Red: hsl(0, 87%, 67%);
+
+  /* ### Neutral */
+
+  --Gray1: hsl(0, 0%, 75%);
+  --Gray2: hsl(257, 7%, 63%);
+  --Gray3: hsl(255, 11%, 22%);
+  --Gray4: hsl(260, 8%, 14%);
+}
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100svh;
+}
+
 footer {
-  background-color: hsl(260, 8%, 14%);
+  background-color: var(--Gray4);
 }

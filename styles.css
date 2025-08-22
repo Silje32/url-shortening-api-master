@@ -34,7 +34,7 @@ article, div, img, img, img, img
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100svh;
+  max-width: 1440svh;
 }
 
 footer {

@@ -1,11 +1,13 @@
 /* 
 header, nav, img, ul, li, section, article, h1, p, button
+
 main, section, article, form, img, input, button
 section, h2, p
 section, article, img, h3, p
 section, article, img, h3, p
 section, article, img, h3, p
 section, img, h2, button
+
 footer, section, img
 section,article, ul, li
 article, ul, li
@@ -34,9 +36,20 @@ article, div, img, img, img, img
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1440svh;
 }
 
+body {
+  max-width: 100svh;
+}
+
+/* Header */
+.logo {
+  width: 120px;
+}
+
+/* Main */
+
+/* Footer */
 footer {
   background-color: var(--Gray4);
 }

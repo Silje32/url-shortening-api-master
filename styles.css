@@ -2,11 +2,11 @@
 header, nav, .logo-nav, ul, li, section, .shorter-links, h1, .links, .btn-header
 
 main, section, .input, form, .input-background, input, .btn-form
-.statistics, h2, .p-statistics
-.statistics, .article, img, h3, p
-.article, img, h3, p
-.article, img, h3, p
-.background, img, .boost, .btn-section
+.statistics-1, article, h2, .p-statistics
+.statistics-2, .article, .blue, img, .en, .to
+.article, .blue, img, .en, .to
+.article, .blue, img, .en, .to
+.background, .blue, img, .boost, .btn-section
 
 footer, section, .logo-footer
 section,article, ul, li
@@ -72,8 +72,8 @@ h1 {
 /* Main */
 
 /* Form */
-.input {
-    
+h2 {
+   margin-top: 100px; 
 }
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
@@ -114,16 +114,34 @@ input {
   font-style: normal;
 }
 
-.statistics {
+.statistics-1 {
     background-color: var( --Gray1);
+}
+h2 {
+   margin-bottom: 10px; 
 }
 .p-statistics {
     color: var(--Gray2);
 }
+.statistics-2 {
+    background-color: var( --Gray1);
+}
 .article {
     background-color: white;
     padding: 25px;
-    margin: 10px;    
+    margin: 10px;
+    border-radius: 5px;    
+}
+.blue {
+    background-color: var(--Purple);
+    width: 10%;
+    border-radius: 90%;
+}
+.en {
+margin-top: 20px;
+}
+.to {
+    color: var(--Gray2);
 }
 .background {
     background-image: url("./images/bg-boost-desktop.svg");

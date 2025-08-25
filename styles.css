@@ -6,7 +6,7 @@ main, section, article, form, .input-background, input, .btn-form
 .statistics, .article, img, h3, p
 .article, img, h3, p
 .article, img, h3, p
-.background, img, h2, .btn-section
+.background, img, .boost, .btn-section
 
 footer, section, .logo-footer
 section,article, ul, li
@@ -113,6 +113,9 @@ input {
 }
 .background {
     background-image: url("./images/bg-boost-desktop.svg");
+}
+.boost {
+    color: white;
 }
 
 /* Footer */

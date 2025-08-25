@@ -41,6 +41,7 @@ article, div, img, img, img, img
 body {
   max-width: 100svh;
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Header */

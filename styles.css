@@ -6,7 +6,7 @@ section, h2, p
 section, article, img, h3, p
 section, article, img, h3, p
 section, article, img, h3, p
-section, img, h2, button
+section, img, h2, .btn-section
 
 footer, section, .logo-footer
 section,article, ul, li
@@ -40,7 +40,7 @@ article, div, img, img, img, img
 
 body {
   max-width: 100svh;
-  font size: 18px;  
+  font-size: 18px;
 }
 
 /* Header */
@@ -55,7 +55,7 @@ body {
   padding: 10px;
   width: 150px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -63,14 +63,25 @@ body {
 
 /* Form */
 .btn-form {
-    background-color: var(--Blue);
+  background-color: var(--Blue);
   color: white;
   border: none;
   border-radius: 15px;
   padding: 12px;
   width: 150px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: normal;
+}
+.btn-section {
+  background-color: var(--Blue);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 

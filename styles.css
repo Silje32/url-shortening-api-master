@@ -1,7 +1,7 @@
 /* 
-header, nav, .logo-nav, ul, li, section, article, h1, p, .btn-header
+header, nav, .logo-nav, ul, li, section, .shorter-links, h1, .links, .btn-header
 
-main, section, article, form, .input-background, input, .btn-form
+main, section, .input, form, .input-background, input, .btn-form
 .statistics, h2, .p-statistics
 .statistics, .article, img, h3, p
 .article, img, h3, p
@@ -48,8 +48,14 @@ body {
 .logo-nav {
   width: 120px;
 }
+.shorter-links {
+    margin-top: 100px;
+}
 h1 {
    font-size: 40px; 
+}
+.links {
+    color: var(--Gray2);
 }
 .btn-header {
   background-color: var(--Blue);
@@ -66,8 +72,12 @@ h1 {
 /* Main */
 
 /* Form */
+.input {
+    
+}
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
+    margin-top: 100px;
 }
 input {
   display: block;

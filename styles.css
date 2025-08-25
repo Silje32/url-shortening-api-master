@@ -45,6 +45,10 @@ body {
 }
 
 /* Header */
+header {
+    min-width: 100svw;
+    padding: 20px 0px;
+}
 .logo-nav {
   width: 120px;
 }
@@ -135,6 +139,10 @@ h2 {
     margin: 10px;
     width: 400px;
     border-radius: 5px;    
+}
+.article::after {
+    content: "";
+    color: var(--Blue);
 }
 .blue {
     background-color: var(--Purple);

@@ -48,6 +48,9 @@ body {
 .logo-nav {
   width: 120px;
 }
+h1 {
+   font-size: 40px; 
+}
 .btn-header {
   background-color: var(--Blue);
   color: white;

@@ -1,5 +1,5 @@
 /* 
-header, nav, img, ul, li, section, article, h1, p, button
+header, nav, .logo-nav, ul, li, section, article, h1, p, button
 
 main, section, article, form, img, input, button
 section, h2, p
@@ -43,7 +43,7 @@ body {
 }
 
 /* Header */
-.logo {
+.logo-nav {
   width: 120px;
 }
 

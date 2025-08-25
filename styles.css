@@ -62,6 +62,18 @@ body {
 /* Main */
 
 /* Form */
+input {
+  display: block;
+  border: 1px solid var(--Gray2);
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px;
+  min-width: 400px;
+  cursor: pointer;
+
+  :hover 
+    border-color: var(--Red);
+}  
 .btn-form {
   background-color: var(--Blue);
   color: white;

@@ -103,6 +103,7 @@ h2 {
     background-image: url("./images/bg-shorten-desktop.svg");
     margin-top: 100px;
     width: 1000px;
+    background-color: var(--Purple);
 }
 input {
   display: block;

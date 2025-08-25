@@ -1,5 +1,5 @@
 /* 
-header, nav, .logo-nav, ul, li, section, article, h1, p, button
+header, nav, .logo-nav, ul, li, section, article, h1, p, .btn-header
 
 main, section, article, form, img, input, button
 section, h2, p
@@ -8,7 +8,7 @@ section, article, img, h3, p
 section, article, img, h3, p
 section, img, h2, button
 
-footer, section, img
+footer, section, .logo-footer
 section,article, ul, li
 article, ul, li
 article, ul, li
@@ -46,10 +46,22 @@ body {
 .logo-nav {
   width: 120px;
 }
+.btn-header {
+  background-color: var(--Blue);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 150px;
+}
 
 /* Main */
 
 /* Footer */
 footer {
   background-color: var(--Gray4);
+}
+.logo-footer {
+  width: 120px;
+  color: red;
 }

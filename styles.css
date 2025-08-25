@@ -1,5 +1,5 @@
 /* 
-header, nav, .logo-nav, ul, li, section, .shorter-links, h1, .links, .btn-header
+header, nav, .logo-nav, ul, li, .sign-up, section, .shorter-links, h1, .links, .btn-header
 
 main, section, .input, form, .input-background, input, .btn-form
 .statistics-1, article, h2, .p-statistics
@@ -55,6 +55,19 @@ header {
 ul {
     width: 200px;
     list-style-type: none;
+}
+li {
+    color: var(--Gray2);
+    font-weight: 700;
+}
+.sign-up {
+background-color: var(--Blue);
+color: white;
+font-weight: 500;
+width: 140px;
+border-radius: 25px;
+text-align: center;
+padding: 10px;
 }
 .shorter-links {
     margin-top: 100px;

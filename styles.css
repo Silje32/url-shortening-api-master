@@ -102,6 +102,7 @@ h2 {
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
     margin-top: 100px;
+    width: 1000px;
 }
 input {
   display: block;
@@ -174,6 +175,7 @@ margin-top: 20px;
 }
 .background {
     background-image: url("./images/bg-boost-desktop.svg");
+    height: 200px;
 }
 .boost {
     color: white;
@@ -182,6 +184,7 @@ margin-top: 20px;
 /* Footer */
 footer {
   background-color: var(--Gray4);
+  min-width: 98svw;
 }
 .logo-footer {
   width: 120px;

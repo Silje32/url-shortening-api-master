@@ -52,6 +52,10 @@ header {
 .logo-nav {
   width: 120px;
 }
+ul {
+    width: 200px;
+    list-style-type: none;
+}
 .shorter-links {
     margin-top: 100px;
 }

@@ -2,10 +2,10 @@
 header, nav, .logo-nav, ul, li, section, article, h1, p, .btn-header
 
 main, section, article, form, img, input, .btn-form
-section, h2, p
-section, article, img, h3, p
-section, article, img, h3, p
-section, article, img, h3, p
+.statistics, h2, .p-statistics
+.statistics, .article, img, h3, p
+.article, img, h3, p
+.article, img, h3, p
 section, img, h2, .btn-section
 
 footer, section, .logo-footer
@@ -95,6 +95,18 @@ input {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.statistics {
+    background-color: var( --Gray1);
+}
+.p-statistics {
+    color: var(--Gray2);
+}
+.article {
+    background-color: white;
+    padding: 25px;
+    margin: 10px;    
 }
 
 /* Footer */

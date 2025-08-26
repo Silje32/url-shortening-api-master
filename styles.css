@@ -2,7 +2,7 @@
 header, nav, .logo-nav, ul, li, .sign-up, section, .shorter-links, h1, .links, .btn-header
 
 main, section, .input, form, .input-background, input, .btn-form
-.statistics-1, article, h2, .p-statistics
+.statistics-all, .statistics-1, statistics, .p-statistics
 .statistics-2, .article, .blue, img, .en, .to
 .article, .blue, img, .en, .to
 .article, .blue, img, .en, .to
@@ -101,7 +101,6 @@ h2 {
 }
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
-    margin-top: 100px;
     width: 1000px;
     background-color: var(--Purple);
 }
@@ -110,7 +109,6 @@ input {
   border: 1px solid var(--Gray2);
   border-radius: 10px;
   padding: 10px 30px;
-  margin: 10px;
   min-width: 400px;
   cursor: pointer;
 
@@ -140,28 +138,40 @@ input {
   font-style: normal;
 }
 
-.statistics-1 {
+.statistics-all {
     background-color: var( --Gray1);
+    height: 1400px;
 }
-h2 {
-   margin-bottom: 10px; 
+.statistics-1 {
+margin-bottom: 200px;
+}
+.statistics {
+    background-color: var( --Gray1);
+    margin-bottom: 20px;
 }
 .p-statistics {
     color: var(--Gray2);
 }
 .statistics-2 {
-    background-color: var( --Gray1);
 }
 .article {
     background-color: white;
     padding: 25px;
     margin: 10px;
     width: 400px;
-    border-radius: 5px;    
+    height: 300px;
+    border-radius: 5px; 
+    position: relative;   
 }
 .article::after {
     content: "";
-    color: var(--Blue);
+    background-color: var(--Blue);
+    width: 30px;
+    height: 10px;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50);
+    position: absolute;
 }
 .blue {
     background-color: var(--Purple);

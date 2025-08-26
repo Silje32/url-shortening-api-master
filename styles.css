@@ -144,13 +144,17 @@ input {
 }
 .statistics-1 {
 margin-bottom: 200px;
+text-align: center;
+width: 510px;
+margin-left: 400px;
 }
 .statistics {
-    background-color: var( --Gray1);
     margin-bottom: 20px;
 }
 .p-statistics {
     color: var(--Gray2);
+    text-align: center;
+    width: 510px;
 }
 .statistics-2 {
 }

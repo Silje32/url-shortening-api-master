@@ -85,6 +85,7 @@ padding: 10px;
 }
 .shorter-links {
     width: 300px;
+    margin-left: 150px;
     margin-right: 300px;
 }
 h1 {
@@ -104,6 +105,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin-top: 20px;
 }
 .image_working {
     width: 400px;
@@ -124,6 +126,7 @@ main {
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
     width: 1000px;
+    height: 100px;
     background-color: var(--Purple);
     align-items: center;
 }

@@ -6,7 +6,7 @@ main, form, .input, div, .input-background, input, .btn-form
 .statistics-2, .article, .blue, img, .en, .to
 .article, .blue, img, .en, .to
 .article, .blue, img, .en, .to
-.background, .blue, img, .boost, .btn-section
+.background, .blue, img, .background-boost .boost, .btn-section
 
 footer, section, .logo-footer
 section,article, ul, .link-1
@@ -223,8 +223,17 @@ margin-top: 20px;
     height: 200px;
     background-color: var(--Purple);
 }
+.background-boost {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .boost {
     color: white;
+    margin-top: 30px;
+}
+.btn-section {
+margin-top: 20px;
 }
 
 /* Footer */

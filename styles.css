@@ -1,7 +1,7 @@
 /* 
 header, nav, .logo-nav, ul, li, .sign-up, .header, .shorter-links, h1, .links, .btn-header, .image_working, img
 
-main, section, .input, form, .input-background, input, .btn-form
+main, form, .input, div, .input-background, input, .btn-form
 .statistics-all, .statistics-1, statistics, .p-statistics
 .statistics-2, .article, .blue, img, .en, .to
 .article, .blue, img, .en, .to
@@ -115,16 +115,20 @@ main {
 }
 
 /* Form */
-h2 {
-   margin-top: 100px; 
+.form {
+    display: flex;
+}
+.input {
+    align-items: center;
 }
 .input-background {
     background-image: url("./images/bg-shorten-desktop.svg");
     width: 1000px;
     background-color: var(--Purple);
+    align-items: center;
 }
 input {
-  display: block;
+  display: inline;
   border: 1px solid var(--Gray2);
   border-radius: 10px;
   padding: 10px 30px;

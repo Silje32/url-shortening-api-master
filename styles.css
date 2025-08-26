@@ -188,9 +188,13 @@ footer {
   background-color: var(--Gray4);
   min-width: 98svw;
 }
+.footer-background {
+    background-color: white;
+    width: 130px;
+    color: white;
+}
 .logo-footer {
   width: 120px;
-  color: red;
 }
 .attribution {
   font-size: 11px;

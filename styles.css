@@ -133,6 +133,10 @@ input {
 
   :hover 
     border-color: var(--Red);
+}
+input::placeholder {
+    color: var(--Gray2);
+    font-family: "Poppins", sans-serif;
 }  
 .btn-form {
   background-color: var(--Blue);
@@ -174,8 +178,6 @@ margin-left: 400px;
     color: var(--Gray2);
     text-align: center;
     width: 510px;
-}
-.statistics-2 {
 }
 .article {
     background-color: white;

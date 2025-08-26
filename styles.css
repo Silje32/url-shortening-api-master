@@ -9,9 +9,9 @@ main, section, .input, form, .input-background, input, .btn-form
 .background, .blue, img, .boost, .btn-section
 
 footer, section, .logo-footer
-section,article, ul, li
-article, ul, li
-article, ul, li
+section,article, ul, .link-1
+article, ul, .link-2
+article, ul, .link-3
 article, div, img, img, img, img
 */
 
@@ -196,6 +196,11 @@ footer {
 .logo-footer {
   width: 120px;
 }
+.link-1, .link-2, .link-3 {
+color: white;
+font-weight: 500;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

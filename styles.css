@@ -56,6 +56,7 @@ header {
 }
 nav {
     min-width: 98svw;
+    margin-left: 150px;
 }
 .logo-nav {
   width: 120px;

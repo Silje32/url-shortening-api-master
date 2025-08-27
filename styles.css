@@ -38,7 +38,7 @@ footer, section, .logo-footer
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -69,20 +69,18 @@ ul {
   align-items: center;
 }
 nav ul li a {
-   color: var(-Gray2);
-   text-decoration: none;
+  color: var(-Gray2);
+  text-decoration: none;
 }
 a:link {
-    color: var(-Gray2);
-    text-decoration: none;
+  color: var(-Gray2);
+  text-decoration: none;
 }
 a:hover {
-color: var(--Gray2);
+  color: var(--Gray2);
 }
-a:visited, 
-a:active
-
-.sign-up {
+a:visited,
+a:active .sign-up {
   background-color: var(--Blue);
   color: white;
   font-weight: 500;
@@ -92,7 +90,7 @@ a:active
   padding: 10px;
 }
 .sign-up a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .header {
   display: flex;
@@ -104,7 +102,7 @@ a:active
   margin-right: 300px;
 }
 h1 {
-  font-size: 40px; 
+  font-size: 40px;
 }
 .links {
   color: var(--Gray2);
@@ -133,7 +131,7 @@ main {
 
 /* Form */
 .input {
-   margin-left: 150px;
+  margin-left: 150px;
 }
 .input-background {
   background-image: url("./images/bg-shorten-desktop.svg");
@@ -152,14 +150,14 @@ input {
   padding: 10px 30px;
   min-width: 700px;
   cursor: pointer;
-
-  :hover 
-    border-color: var(--Red);
+}
+input:hover {
+  border-color: var(--Red);
 }
 input::placeholder {
   color: var(--Gray2);
   font-family: "Poppins", sans-serif;
-}  
+}
 .btn-form {
   background-color: var(--Blue);
   color: white;
@@ -184,7 +182,7 @@ input::placeholder {
 }
 
 .statistics-all {
-  background-color: var( --Gray1);
+  background-color: var(--Gray1);
   height: 1000px;
 }
 .statistics-1 {
@@ -202,8 +200,8 @@ input::placeholder {
   width: 510px;
 }
 .statistics-2 {
-    display: grid;
-    grid-template-columns: 430px 430px 1fr;
+  display: grid;
+  grid-template-columns: 430px 430px 1fr;
 }
 .article {
   background-color: white;
@@ -211,9 +209,9 @@ input::placeholder {
   margin: 10px;
   width: 400px;
   height: 300px;
-  border-radius: 5px; 
+  border-radius: 5px;
   position: relative;
-  display: grid; 
+  display: grid;
 }
 .article::after {
   content: "";
@@ -292,11 +290,11 @@ footer {
   font-weight: 500;
 }
 .link-2 ul li a {
-    color: var(--Blue);
-} 
-.link-2 ul li a:hover  {
-    color: var(--Blue);
-} 
+  color: var(--Blue);
+}
+.link-2 ul li a:hover {
+  color: var(--Blue);
+}
 .link-3 {
   color: white;
   font-weight: 500;

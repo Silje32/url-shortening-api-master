@@ -381,6 +381,12 @@ footer {
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  .article {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    grid-template-rows: auto;
+  }
   footer {
     text-align: center;
   }

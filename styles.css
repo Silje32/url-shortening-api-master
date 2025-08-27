@@ -345,7 +345,7 @@ footer {
   .shorter-links {
     width: auto;
     margin: 0 20px;
-    order: ;
+    order: 2;
   }
   h1 {
     font-size: 32px;

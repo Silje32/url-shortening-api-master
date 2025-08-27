@@ -360,14 +360,15 @@ footer {
     font-size: 14px;
   }
   .image_working {
-    width: 50%;
+    width: 20%;
+    flex-direction: column;
     order: 1;
   }
-  .input {
-    margin: 0 20px;
+  input {
+    min-width: 400px;
   }
   .input-background {
-    width: auto;
+    width: 700px;
     height: 150px;
     flex-direction: column;
     gap: 10px;

@@ -68,7 +68,7 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
-nav ul li a {
+li a {
   color: var(-Gray2);
   text-decoration: none;
 }
@@ -119,6 +119,7 @@ h1 {
   font-weight: 500;
   font-style: normal;
   margin-top: 20px;
+  cursor: pointer;
 }
 .image_working {
   width: 400px;
@@ -298,6 +299,9 @@ footer {
 .link-3 {
   color: white;
   font-weight: 500;
+}
+.footer-links-2 .link-2 a {
+  color: var(--Blue);
 }
 .pinterest img:hover {
   color: var(--Blue);

@@ -374,7 +374,7 @@ footer {
     flex-direction: column;
     height: auto;
   }
-  statistics-2 {
+  .statistics-2 {
     grid-template-columns: 1fr;
     justify-items: center;
   }

@@ -316,6 +316,8 @@ footer {
 
 /* Media Queries
 -------------------*/
+
+/*mobile styles*/
 @media (max-width: 375px) {
   body {
     font-size: 16px;
@@ -325,22 +327,11 @@ footer {
     align-items: center;
     gap: 20px;
   }
-  nav {
+  .nav-links a {
     display: none;
-    margin: 0;
   }
   .logo-nav {
-    margin-top: 20px;
-    width: 100px;
-  }
-  ul {
-    margin-bottom: 20px;
-    gap: 20px;
-  }
-  .sign-up a {
-    width: 120px;
-    padding: 8px;
-    font-size: 14px;
+    width: 80px;
   }
   .header {
     flex-direction: column;
@@ -351,6 +342,7 @@ footer {
   .shorter-links {
     width: auto;
     margin: 0 20px;
+    order: ;
   }
   h1 {
     font-size: 32px;
@@ -366,6 +358,7 @@ footer {
   }
   .image_working {
     width: 300px;
+    order: 1;
   }
   .input {
     margin: 0 20px;
@@ -375,5 +368,6 @@ footer {
     height: 150px;
     flex-direction: column;
     gap: 10px;
+    display: block;
   }
 }

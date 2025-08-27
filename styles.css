@@ -366,6 +366,7 @@ footer {
   }
   input {
     min-width: 400px;
+    flex-direction: column;
   }
   .input-background {
     width: 700px;

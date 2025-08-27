@@ -68,9 +68,10 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
-nav ul li a {
+.nav-links ul li a {
   color: var(--Gray2);
   text-decoration: none;
+  font-weight: 700;
 }
 a:link {
   color: var(--Gray2);
@@ -79,8 +80,7 @@ a:link {
 a:hover {
   color: var(--Gray2);
 }
-a:visited,
-a:active .sign-up {
+.nav-links #sign-up {
   background-color: var(--Blue);
   color: white;
   font-weight: 500;
@@ -314,6 +314,8 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
+/* Media Queries
+-------------------*/
 @media (max-width: 375px) {
   body {
     font-size: 16px;
@@ -324,6 +326,7 @@ footer {
     gap: 20px;
   }
   nav {
+    display: none;
     margin: 0;
   }
   .logo-nav {

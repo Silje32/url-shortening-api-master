@@ -286,27 +286,26 @@ footer {
   flex: 4;
   flex-direction: column; 
 } */
-.link-1 ul li a {
+.footer-links-1 .link-1 a {
   color: white;
   font-weight: 500;
 }
 .link-2 ul li a {
   color: var(--Blue);
 }
-.link-2 ul li a:hover {
-  color: var(--Blue);
+.footer ul li a {
+  color: var(--Gray2);
 }
 .link-3 {
   color: white;
   font-weight: 500;
 }
-.footer-links-2 .link-2 a {
+.footer-links-2 .link-2 a:hover {
   color: var(--Blue);
 }
-.pinterest img:hover {
+.footer-links-4 .pinterest img:hover {
   color: var(--Blue);
 }
-
 .attribution {
   font-size: 11px;
   text-align: center;

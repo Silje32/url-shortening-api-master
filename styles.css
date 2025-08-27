@@ -9,10 +9,10 @@ main, form, .input, div, .input-background, input, .btn-form
 .background, .blue, img, .background-boost .boost, .btn-section
 
 footer, section, .logo-footer
-section,article, ul, .link-1
-article, ul, .link-2
-article, ul, .link-3
-article, div, img, img, img, img
+.footer, .footer-links-1, ul, .link-1
+.footer-links-2, ul, .link-2
+.footer-links-3, ul, .link-3
+.footer-links-4, div, img, img, img, img
 */
 
 :root {
@@ -39,7 +39,7 @@ article, div, img, img, img, img
 }
 
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,52 +50,52 @@ body {
 
 /* Header */
 header {
-    min-width: 98svw;
-    justify-content: space-between;
-    align-items: center;
+  min-width: 98svw;
+  justify-content: space-between;
+  align-items: center;
 }
 nav {
-    min-width: 98svw;
-    margin-left: 150px;
-    margin-right: 90px;
+  min-width: 98svw;
+  margin-left: 150px;
+  margin-right: 90px;
 }
 .logo-nav {
   width: 120px;
 }
 ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 li {
-    color: var(--Gray2);
-    font-weight: 700;
+  color: var(--Gray2);
+  font-weight: 700;
 }
 .sign-up {
-background-color: var(--Blue);
-color: white;
-font-weight: 500;
-width: 140px;
-border-radius: 25px;
-text-align: center;
-padding: 10px;
+  background-color: var(--Blue);
+  color: white;
+  font-weight: 500;
+  width: 140px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
 }
 .header {
-    display: flex;
-    margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
 }
 .shorter-links {
-    width: 300px;
-    margin-left: 150px;
-    margin-right: 300px;
+  width: 300px;
+  margin-left: 150px;
+  margin-right: 300px;
 }
 h1 {
-   font-size: 40px; 
+  font-size: 40px; 
 }
 .links {
-    color: var(--Gray2);
-    width: 450px;
+  color: var(--Gray2);
+  width: 450px;
 }
 .btn-header {
   background-color: var(--Blue);
@@ -110,12 +110,12 @@ h1 {
   margin-top: 20px;
 }
 .image_working {
-    width: 400px;
+  width: 400px;
 }
 
 /* Main */
 main {
-    width: 98svw;
+  width: 98svw;
 }
 
 /* Form */
@@ -123,14 +123,14 @@ main {
    margin-left: 150px;
 }
 .input-background {
-    background-image: url("./images/bg-shorten-desktop.svg");
-    width: 1100px;
-    height: 100px;
-    background-color: var(--Purple);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  background-image: url("./images/bg-shorten-desktop.svg");
+  width: 1100px;
+  height: 100px;
+  background-color: var(--Purple);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 input {
   display: inline;
@@ -144,8 +144,8 @@ input {
     border-color: var(--Red);
 }
 input::placeholder {
-    color: var(--Gray2);
-    font-family: "Poppins", sans-serif;
+  color: var(--Gray2);
+  font-family: "Poppins", sans-serif;
 }  
 .btn-form {
   background-color: var(--Blue);
@@ -171,69 +171,74 @@ input::placeholder {
 }
 
 .statistics-all {
-    background-color: var( --Gray1);
-    height: 1400px;
+  background-color: var( --Gray1);
+  height: 1000px;
 }
 .statistics-1 {
-margin-bottom: 200px;
-text-align: center;
-width: 510px;
-margin-left: 400px;
+  margin-bottom: 200px;
+  text-align: center;
+  width: 510px;
+  margin-left: 400px;
 }
 .statistics {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .p-statistics {
-    color: var(--Gray2);
-    text-align: center;
-    width: 510px;
+  color: var(--Gray2);
+  text-align: center;
+  width: 510px;
+}
+.statistics-2 {
+    display: grid;
+    grid-template-columns: 430px 430px 1fr;
 }
 .article {
-    background-color: white;
-    padding: 25px;
-    margin: 10px;
-    width: 400px;
-    height: 300px;
-    border-radius: 5px; 
-    position: relative;   
+  background-color: white;
+  padding: 25px;
+  margin: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px; 
+  position: relative;
+  display: grid; 
 }
 .article::after {
-    content: "";
-    background-color: var(--Blue);
-    width: 30px;
-    height: 10px;
-    top: 50%;
-    right: -30px;
-    transform: translateY(-50);
-    position: absolute;
+  content: "";
+  background-color: var(--Blue);
+  width: 30px;
+  height: 10px;
+  top: 50%;
+  right: -30px;
+  transform: translateY(-50);
+  position: absolute;
 }
 .blue {
-    background-color: var(--Purple);
-    width: 15%;
-    border-radius: 90%;
+  background-color: var(--Purple);
+  width: 15%;
+  border-radius: 90%;
 }
 .en {
-margin-top: 20px;
+  margin-top: 20px;
 }
 .to {
-    color: var(--Gray2);
+  color: var(--Gray2);
 }
 .background {
-    background-image: url("./images/bg-boost-desktop.svg");
-    height: 200px;
-    background-color: var(--Purple);
+  background-image: url("./images/bg-boost-desktop.svg");
+  height: 200px;
+  background-color: var(--Purple);
 }
 .background-boost {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .boost {
-    color: white;
-    margin-top: 30px;
+  color: white;
+  margin-top: 30px;
 }
 .btn-section {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Footer */
@@ -241,17 +246,37 @@ footer {
   background-color: var(--Gray4);
   min-width: 98svw;
 }
+
 .footer-background {
-    background-color: white;
-    width: 130px;
-    color: white;
+  background-color: white;
+  width: 120px;
+  color: white;
 }
 .logo-footer {
   width: 120px;
 }
+/* .footer {
+  display: flex;
+} */
+/* .footer-links-1 {
+  flex: 1;
+  flex-direction: column;
+} */
+/* .footer-links-2 {
+  flex: 2;  
+  flex-direction: column; 
+} /* 
+/* .footer-links-3 {
+  flex: 3; 
+  flex-direction: column;   
+} /*
+/* .footer-links-4 {
+  flex: 4;
+  flex-direction: column; 
+} */
 .link-1, .link-2, .link-3 {
-color: white;
-font-weight: 500;
+  color: white;
+  font-weight: 500;
 }
 
 .attribution {
@@ -259,5 +284,5 @@ font-weight: 500;
   text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }

@@ -80,6 +80,9 @@ a:link {
 a:hover {
   color: var(--Gray2);
 }
+.nav-link-pricing a:hover {
+  color: var(--Gray3);
+}
 .nav-links #sign-up {
   background-color: var(--Blue);
   color: white;

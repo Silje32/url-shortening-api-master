@@ -124,6 +124,9 @@ h1 {
   margin-top: 20px;
   cursor: pointer;
 }
+.btn-header:hover {
+  opacity: 0.5;
+}
 .image_working {
   width: 400px;
 }

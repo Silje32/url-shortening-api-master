@@ -259,7 +259,7 @@ input::placeholder {
 /* Footer */
 footer {
   background-color: var(--Gray4);
-  min-width: 98svw;
+  max-width: 98svw;
 }
 
 .footer-background {

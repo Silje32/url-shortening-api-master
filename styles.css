@@ -92,8 +92,9 @@ a:hover {
   text-align: center;
   padding: 10px;
 }
-.sign-up a:hover {
+#sign-up a:hover {
   cursor: pointer;
+  opacity: 0.5;
 }
 .header {
   display: flex;
@@ -128,7 +129,8 @@ h1 {
   opacity: 0.5;
 }
 .image_working {
-  width: 400px;
+  width: 300px;
+  margin-right: 50px;
 }
 
 /* Main */
@@ -275,6 +277,7 @@ footer {
 }
 .logo-footer {
   width: 120px;
+  color: white;
 }
 /* .footer {
   display: flex;
@@ -340,7 +343,10 @@ footer {
     display: none;
   }
   .logo-nav {
-    width: 80px;
+    width: 100px;
+  }
+  .nav-links #sign-up {
+    display: none;
   }
   .header {
     flex-direction: column;
@@ -366,34 +372,58 @@ footer {
     font-size: 14px;
   }
   .image_working {
-    width: 20%;
+    max-width: 10%;
     flex-direction: column;
     order: 1;
   }
+  .input {
+    margin-left: 1px;
+  }
   input {
-    min-width: 400px;
+    min-width: 5px;
     flex-direction: column;
   }
   .input-background {
-    width: 700px;
+    max-width: 345px;
     height: 150px;
     flex-direction: column;
-    gap: 10px;
     display: block;
   }
   .statistics-all {
     flex-direction: column;
     height: auto;
   }
+  .statistics-1 {
+    margin-bottom: 200px;
+    width: 500px;
+    margin-left: 5px;
+  }
   .statistics-2 {
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .article {
-    width: 200px;
-    height: auto;
+  .statistics {
+    text-align: left;
+  }
+  .p-statistics {
+    width: 300px;
     text-align: center;
-    grid-template-rows: auto;
+  }
+  .article {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+  }
+  .blue {
+    background-color: var(--Purple);
+    width: 50%;
+    height: 100%;
+    border-radius: 60%;
+    margin: 0 auto;
+  }
+  .blue img {
+    width: 40%;
+    padding: 4px;
   }
   footer {
     text-align: center;

@@ -7,7 +7,9 @@ async function getData() {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({}),
+    body: JSON.stringify({
+      url: "http://google.com/",
+    }),
   });
 
   let data = await response.json();

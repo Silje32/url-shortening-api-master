@@ -476,6 +476,7 @@ footer {
     .footer-links-2,
     .footer-links-3,
     .footer-links-4 {
-      flex-direction: column;                       
-}
+      flex-direction: column;
+    }
   }
+}

@@ -111,13 +111,13 @@ h1 {
 }
 .links {
   color: var(--Gray2);
-  width: 450px;
+  width: 423px;
 }
 .btn-header {
   background-color: var(--Blue);
   color: white;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px;
   width: 150px;
   font-family: "Poppins", sans-serif;

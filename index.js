@@ -1,5 +1,5 @@
 const displayInfo = document.querySelector(".input-background");
-const url = "https://cleanuri.com/api/v1/shorten";
+const url = "https://http://mgnet.me/api/create";
 
 async function getData() {
   let response = await fetch(url, {
@@ -7,9 +7,7 @@ async function getData() {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      url: "http://google.com/",
-    }),
+    body: JSON.stringify({ magnet: magnetURI }),
   });
 
   let data = await response.json();

@@ -45,17 +45,17 @@ html {
 body {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  min-width: 98svw;
+  min-width: 100svw;
 }
 
 /* Header */
 header {
-  min-width: 98svw;
+  min-width: 100svw;
   justify-content: space-between;
   align-items: center;
 }
 nav {
-  min-width: 98svw;
+  min-width: 100svw;
   margin-left: 150px;
   margin-right: 90px;
 }
@@ -91,6 +91,7 @@ a:hover {
   border-radius: 25px;
   text-align: center;
   padding: 10px;
+  margin-right: 100px;
 }
 #sign-up a:hover {
   cursor: pointer;
@@ -138,7 +139,7 @@ h1 {
 
 /* Main */
 main {
-  width: 98svw;
+  width: 100svw;
 }
 
 /* Form */
@@ -282,7 +283,7 @@ input::placeholder {
 /* Footer */
 footer {
   background-color: var(--Gray4);
-  max-width: 98svw;
+  max-width: 100svw;
   height: 300px;
 }
 .footer-background {

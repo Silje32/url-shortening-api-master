@@ -379,14 +379,23 @@ footer {
     margin-left: 1px;
   }
   input {
-    min-width: 5px;
+    min-width: 1px;
     flex-direction: column;
+    padding: 5px 5px;
+    justify-content: center;
   }
   .input-background {
     max-width: 366px;
     height: 150px;
     flex-direction: column;
     display: block;
+    justify-content: center;
+  }
+  .btn-form {
+    width: 340px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
   }
   .statistics-all {
     flex-direction: column;

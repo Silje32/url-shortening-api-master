@@ -387,6 +387,7 @@ footer {
     width: 120px;
     padding: 8px;
     font-size: 14px;
+    margin-bottom: 60px;
   }
   .image_working {
     margin-right: 1px;
@@ -397,14 +398,13 @@ footer {
   }
   .input {
     margin-left: 1px;
-    width: 340px;
+    width: 200px;
   }
   input {
-    width: 340px;
+    width: 88px;
     flex-direction: column;
-    padding: 20px 10px;
-    margin-top: 30px;
-    gap: 5px;
+    padding: 15px 5px;
+    margin-top: 20px;
   }
   .input-background {
     max-width: 366px;
@@ -415,7 +415,7 @@ footer {
   }
   .btn-form {
     width: 340px;
-    margin-bottom: 15px;
+    margin-top: 20px;
     margin-left: 10px;
     border-radius: 10px;
   }

@@ -198,7 +198,7 @@ input::placeholder {
 
 .statistics-all {
   background-color: var(--Gray1);
-  height: 1000px;
+  height: 800px;
 }
 .statistics-1 {
   margin-bottom: 200px;

@@ -283,8 +283,8 @@ input::placeholder {
 footer {
   background-color: var(--Gray4);
   max-width: 98svw;
+  height: 300px;
 }
-
 .footer-background {
   background-color: white;
   width: 120px;
@@ -294,21 +294,21 @@ footer {
   width: 120px;
   color: white;
 }
-/* .footer {
+.footer {
   display: flex;
-} */
-/* .footer-links-1 {
-  flex: 1;
+}
+.footer-links-1 {
+  /*  flex: 1; */
   flex-direction: column;
-} */
-/* .footer-links-2 {
-  flex: 2;  
-  flex-direction: column; 
-} /* 
-/* .footer-links-3 {
-  flex: 3; 
-  flex-direction: column;   
-} /*
+}
+.footer-links-2 {
+  /*  flex: 2; */
+  flex-direction: column;
+}
+.footer-links-3 {
+  /* flex: 3; */
+  flex-direction: column;
+}
 /* .footer-links-4 {
   flex: 4;
   flex-direction: column; 

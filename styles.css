@@ -347,7 +347,7 @@ footer {
 -------------------*/
 
 /* mobile styles */
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   body {
     font-size: 16px;
   }

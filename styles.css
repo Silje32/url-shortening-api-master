@@ -198,21 +198,27 @@ input::placeholder {
 
 .statistics-all {
   background-color: var(--Gray1);
-  height: 800px;
+  height: 1000px;
+  padding-top: 150px;
 }
 .statistics-1 {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
   width: 510px;
   margin-left: 400px;
+  font-size: 32px;
 }
 .statistics {
-  margin-bottom: 20px;
+  color: var(--Gray3);
+  font-weight: 700;
+  text-align: center;
 }
 .p-statistics {
   color: var(--Gray2);
   text-align: center;
-  width: 510px;
+  width: 570px;
+  margin-top: 15px;
+  font-size: 20px;
 }
 .statistics-2 {
   display: grid;

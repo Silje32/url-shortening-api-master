@@ -373,7 +373,6 @@ footer {
   }
   .image_working {
     max-width: 10%;
-    flex-direction: column;
     order: 1;
   }
   .input {
@@ -384,7 +383,7 @@ footer {
     flex-direction: column;
   }
   .input-background {
-    max-width: 345px;
+    max-width: 366px;
     height: 150px;
     flex-direction: column;
     display: block;

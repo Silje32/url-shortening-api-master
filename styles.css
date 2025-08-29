@@ -101,12 +101,13 @@ a:hover {
   margin-top: 100px;
 }
 .shorter-links {
-  width: 300px;
+  width: 400px;
   margin-left: 150px;
   margin-right: 300px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+  color: var(--Gray3);
 }
 .links {
   color: var(--Gray2);

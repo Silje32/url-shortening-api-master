@@ -398,16 +398,16 @@ footer {
   }
   .input {
     margin-left: 1px;
-    width: 200px;
+    max-width: 10px;
   }
   input {
-    width: 88px;
+    max-width: 50px;
     flex-direction: column;
     padding: 15px 5px;
     margin-top: 20px;
   }
   .input-background {
-    max-width: 366px;
+    max-width: 370px;
     height: 150px;
     flex-direction: column;
     display: block;

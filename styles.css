@@ -207,12 +207,12 @@ input::placeholder {
   text-align: center;
   width: 510px;
   margin-left: 400px;
-  font-size: 32px;
 }
 .statistics {
   color: var(--Gray3);
   font-weight: 700;
   text-align: center;
+  font-size: 32px;
 }
 .p-statistics {
   color: var(--Gray2);
@@ -413,6 +413,10 @@ footer {
     display: block;
     justify-content: center;
   }
+  .input-background input {
+    min-width: 250px;
+    margin: 0 auto;
+  }
   .btn-form {
     width: 340px;
     margin-top: 20px;
@@ -426,8 +430,7 @@ footer {
   .statistics-1 {
     margin-bottom: 200px;
     width: 500px;
-    margin-left: 5px;
-    font-size: 20px;
+    margin-left: 1px;
   }
   .statistics-2 {
     grid-template-columns: 1fr;
@@ -435,10 +438,12 @@ footer {
   }
   .statistics {
     text-align: left;
+    font-size: 30px;
   }
   .p-statistics {
-    width: 300px;
+    width: 350px;
     text-align: center;
+    font-size: 18px;
   }
   .article {
     width: 530px;

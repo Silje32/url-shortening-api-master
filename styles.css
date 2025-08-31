@@ -444,6 +444,7 @@ footer {
   .statistics {
     text-align: left;
     font-size: 30px;
+    margin-left: 20px;
   }
   .p-statistics {
     width: 350px;
@@ -451,10 +452,11 @@ footer {
     font-size: 18px;
   }
   .article {
-    width: 500px;
+    width: 330px;
     height: 300px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 2px;
+    margin-bottom: 20px;
   }
   .blue {
     background-color: var(--Purple);

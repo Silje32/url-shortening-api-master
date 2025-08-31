@@ -148,7 +148,7 @@ main {
 }
 .input-background {
   background-image: url("./images/bg-shorten-desktop.svg");
-  width: 900px;
+  width: 1100px;
   height: 100px;
   background-color: var(--Purple);
   align-items: center;
@@ -159,7 +159,7 @@ main {
 .input-background input {
   background-color: white;
   min-width: 600px;
-  margin-right: 30px;
+  margin-left: 10px;
 }
 input {
   display: inline;
@@ -233,7 +233,7 @@ input::placeholder {
 .article {
   background-color: white;
   padding: 25px;
-  margin-left: 80px;
+  margin-left: 40px;
   width: 400px;
   height: 300px;
   border-radius: 5px;

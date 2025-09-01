@@ -404,7 +404,7 @@ footer {
   .logo-nav {
     width: 100px;
   }
-  .nav-links #sign-up {
+  .nav-links .sign-up-btn {
     display: none;
   }
   .header {

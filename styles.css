@@ -265,13 +265,13 @@ input::placeholder {
 }
 .statistics-2 {
   display: grid;
-  grid-template-columns: 450px 450px 1fr;
+  grid-template-columns: 410px 410px 1fr;
 }
 .article {
   background-color: white;
   padding: 25px;
-  margin-left: 40px;
-  width: 400px;
+  margin-left: 14px;
+  width: 350px;
   height: 300px;
   border-radius: 5px;
   position: relative;

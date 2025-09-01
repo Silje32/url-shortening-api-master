@@ -62,11 +62,26 @@ nav {
 .logo-nav {
   width: 120px;
 }
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 460px;
+}
 ul {
-  list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: var(--Gray2);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 30px;
 }
 .nav-links ul li a {
   color: var(--Gray2);
@@ -94,7 +109,7 @@ a:hover {
   border: none;
   text-align: center;
   padding: 10px;
-  margin-right: 20px;
+  margin-left: 400px;
 }
 .nav-links .sign-up-btn {
   background-color: var(--Blue);

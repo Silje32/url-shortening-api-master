@@ -100,6 +100,7 @@ a:hover {
 .header {
   display: flex;
   margin-top: 100px;
+  margin-right: 400px;
 }
 .shorter-links {
   width: 400px;
@@ -144,7 +145,7 @@ main {
 
 /* Form */
 .input {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .input-background {
   background-image: url("./images/bg-shorten-desktop.svg");

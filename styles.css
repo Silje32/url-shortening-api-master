@@ -136,6 +136,7 @@ h1 {
 }
 .image_working img {
   width: 450px;
+  margin-right: 30px;
 }
 
 /* Main */

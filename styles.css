@@ -108,6 +108,9 @@ a:hover {
   padding: 10px;
   margin-right: 100px;
 }
+.sign-up-btn a {
+  color: white;
+}
 .sign-up-btn a:hover {
   cursor: pointer;
   opacity: 0.5;

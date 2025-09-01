@@ -412,7 +412,7 @@ footer {
     margin-top: 20px;
   }
   .input-background {
-    max-width: 370px;
+    max-width: 375px;
     height: 150px;
     flex-direction: column;
     display: block;

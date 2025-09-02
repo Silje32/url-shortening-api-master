@@ -96,7 +96,7 @@ a:link {
 a:hover {
   color: var(--Gray2);
 }
-.nav-link-pricing a:hover {
+.nav-link a:hover {
   color: var(--Gray3);
 }
 .login-btn {
@@ -110,6 +110,9 @@ a:hover {
   text-align: center;
   padding: 10px;
   margin-left: 400px;
+}
+.login-btn a {
+  color: var(--Gray3);
 }
 .nav-links .sign-up-btn {
   background-color: var(--Blue);

@@ -371,7 +371,13 @@ footer {
   color: white;
   font-weight: 500;
 }
+.footer-links-1 .link-2 a:hover {
+  color: var(--Blue);
+}
 .footer-links-2 .link-2 a:hover {
+  color: var(--Blue);
+}
+.footer-links-3 .link-2 a:hover {
   color: var(--Blue);
 }
 .footer-links-4 .pinterest:hover {

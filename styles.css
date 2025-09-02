@@ -374,7 +374,7 @@ footer {
 .footer-links-2 .link-2 a:hover {
   color: var(--Blue);
 }
-.footer-links-4 .pinterest img:hover {
+.footer-links-4 .pinterest:hover {
   color: var(--Blue);
 }
 .attribution {
